@@ -10,6 +10,9 @@
 */
 ?>
 <style>
+    body{
+          overflow-x: hidden;
+    }
     .page-header { 
     background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(<?php bloginfo('template_directory'); ?>/img/contact.jpg);
       background-position: center center;
@@ -93,16 +96,22 @@
     -ms-transform: translateX(-50%);
 }
 .wpcf7{
-   
-    border:3px solid #00FFFF;
+   margin-right:20px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width:440px;
+     padding:20px 30px;
+ border:3px solid #00FFFF;
     border-radius:15px;
-    padding:10px;
 }
 .container-contact{
      text-align:center;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom:25px;
 }
 
@@ -135,7 +144,7 @@
 <section class="site-section subpage-site-section section-contact-us">
 
     <div class="container-contact">
-            <div class="col-sm-7" style="margin-right:15px">
+            <div class="col-sm-7">
                 <h2>Изпратете съобщение:</h2>
                 <?php echo do_shortcode('[contact-form-7 id="24" title="Форма за контакти 1"]') ?>
             </div>

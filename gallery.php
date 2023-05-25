@@ -82,7 +82,7 @@ if ( have_posts() ) {
     </div>
     -->
 <div style="">
-<h1 style="color: black; text-align: center;  margin-top: 50px;">Снимки на нашата занималня:</h1>
+<h1 style="color: black; text-align: center;  margin-top: 50px;"><?php echo the_content(); ?></h1>
 <div style="margin: auto; width: 80%;height: 50%; display: flex; justify-content:center;align-items:center; flex-direction:column">
 <?php the_content(); ?>
 </div>
