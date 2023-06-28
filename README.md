@@ -1,5 +1,5 @@
 # Kindergarten-Wordpress-Website
-Internship project. Made with custom template and fully implemented into WordPress.<br/><br/>
+Internship project for Timag. Made with custom template and fully implemented into WordPress.<br/><br/>
 
 Images of the project:
 
